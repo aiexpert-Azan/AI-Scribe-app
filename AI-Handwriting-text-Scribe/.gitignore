@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:14535c01dbda7864a44df28ac0ebb2c0e9a69642d1eaf3bd23d673ed81b0c831
-size 273
+# System Junk
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+
+# Environments
+venv/
+env/
+.env
+.vscode/
+.idea/
+
+# Large Models & Outputs (User downloads these)
+trocr_model_large/
+ocr_output/
+logs/
+
+# Archives & Temp Files
+*.rar
+*.zip
+*.pdf
+*.svg
